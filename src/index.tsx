@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { App as Apps } from './App';
 import "./app.css"
 
 const App: React.FC = () => {
-  return <h1 className='text-primary text-4xl font-bold'>Hello, world!</h1>;
+  return <Apps />
 };
 
 const rootElement = document.getElementById('root');
