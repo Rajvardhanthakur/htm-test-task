@@ -1,11 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { App as Apps } from './App';
-import "./app.css"
-
-const App: React.FC = () => {
-  return <Apps />
-};
+import App from './App';
+import "./app.css";
 
 const rootElement = document.getElementById('root');
 
