@@ -128,7 +128,7 @@ export const Home: React.FC = () => {
           description={modalDescription}
         />
       </div>
-    </Fragment>g
+    </Fragment>
   );
 };
 
